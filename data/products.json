@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Lâmpada Inteligente",
+    "descricao": "Controle remoto via app e voz.",
+    "preco": 99.90,
+    "icone": "assets/icon-lamp.png"
+  },
+  {
+    "nome": "Caixa de Som Inteligente",
+    "descricao": "Integração com assistentes virtuais.",
+    "preco": 299.90,
+    "icone": "assets/icon-speaker.png"
+  },
+  {
+    "nome": "Termostato Inteligente",
+    "descricao": "Ajuste automático de temperatura.",
+    "preco": 499.90,
+    "icone": "assets/icon-thermostat.png"
+  },
+  {
+    "nome": "Câmera de Segurança",
+    "descricao": "Monitoramento remoto em tempo real.",
+    "preco": 399.90,
+    "icone": "assets/icon-camera.png"
+  }
+]
