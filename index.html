@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>KFProductiON - Lar Conectado</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>KFProductiON - Lar Conectado</h1>
+    <nav id="main-menu">
+      <button id="menu-toggle">☰ Menu</button>
+      <ul id="menu-list">
+        <li><a href="#carousel">Produtos</a></li>
+        <li><a href="#cart">Carrinho</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Carousel de produtos -->
+  <section id="carousel" class="carousel">
+    <h2>Produtos Inteligentes em Destaque</h2>
+    <div class="carousel-container" id="carousel-container"></div>
+    <button id="prev">◀</button>
+    <button id="next">▶</button>
+  </section>
+
+  <!-- Carrinho -->
+  <section id="cart" class="cart">
+    <h2>🛒 Carrinho de Compras</h2>
+    <ul id="cart-items"></ul>
+    <p><strong>Total:</strong> R$ <span id="cart-total">0.00</span></p>
+    <button id="finalizar-compra">Finalizar Pedido</button>
+    <div id="checkout-msg"></div>
+  </section>
+
+  <!-- Checkout -->
+  <section id="checkout" class="checkout">
+    <h2>Finalizar Compra</h2>
+    <form id="checkout-form">
+      <label>Nome Completo:</label>
+      <input type="text" id="checkout-nome" required>
+      <label>Endereço:</label>
+      <input type="text" id="checkout-endereco" required>
+      <label>Cidade:</label>
+      <input type="text" id="checkout-cidade" required>
+      <label>CEP:</label>
+      <input type="text" id="checkout-cep" required>
+      <label>Cartão de Crédito (simulado):</label>
+      <input type="text" id="checkout-cartao" placeholder="0000 0000 0000 0000" required>
+      <button type="submit">Confirmar Pedido</button>
+    </form>
+    <div id="checkout-result"></div>
+  </section>
+
+  <!-- Newsletter -->
+  <section id="newsletter" class="newsletter">
+    <h2>Assine nossa Newsletter</h2>
+    <form id="newsletter-form">
+      <input type="email" id="newsletter-email" placeholder="Seu e-mail">
+      <button type="submit">Inscrever-se</button>
+    </form>
+    <div id="newsletter-msg"></div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="js/menu.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/newsletter.js"></script>
+</body>
+</html>
